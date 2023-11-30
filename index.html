@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Welcome to Night Vale</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top py-3" id="cabecalho">
+        <div class="container">
+            <h1 class=" navbar-brand m-0">Welcome to night vale</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-underline d-block d-md-flex">
+                    <li class="nav-item fw-bold ">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#locais" class="nav-link">
+                            <i class="bi bi-cursor-fill me-1"></i>
+                            Locais
+                        </a>
+                    </li>
+					<li class="nav-item fw-bold">
+                        <a href="#frases" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Melhores citações
+                        </a>
+                    </li>
+					<li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-right-dots-fill me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imgs/dpslide.jpg" class="w-100" alt="Portão de entrada parque de cães"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/nvslide.jpg" class="w-100" alt="Letreiro Welcome to night vale"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/tnvslide.jpg" class="w-100" alt="see nothing feel everything"/>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="py-5 container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imgs/microfone.jpg" class="rounded d-block w-100" alt="Microfone"/>
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="">A <span class="text-colored">estação de rádio</span></h2>
+                            <p>Welcome to Night Vale é um podcast fantasioso. O show geralmente se concentra em uma notícia principal, que Cecil atualiza seus ouvintes entre comerciais e outros segmentos. Ele dura cerca de meia hora, e na marca de 3/4 do show Cecil quebra para a seção Tempo</p>
+                            <p>A estação possui uma cabine de gravação, uma cabine de produção, um círculo de pedra de sangue, uma torre de transmissão, banheiros, uma zona de carregamento frontal, uma sala de descanso onde estagiários mortos estão enterrados, o escritório de Gerenciamento de Estação, que parece ser maior por dentro do que suas dimensões externas devem permitir, e cubículos para os Shawns.</p>
+							<h3 class="">O <span class="text-colored">apresentador</span></h3>
+                            <p>Cecil Gershwin Palmer é a voz de Noite Vale e o narrador de Welcome to Night Vale. Ele trabalha na Rádio Comunitária de Night Vale como locutor e autoproclamado jornalista. Enquanto Cecil é geralmente bastante alegre, ele também é muitas vezes sombrio, e pode alternar entre os dois muito rapidamente. Além disso, ele muitas vezes experimenta perda de memória e dissociação, alguns dos quais estão ligados a acontecimentos sobrenaturais, como a posse.</p>
+                        </div>
+                    </div>
+					<div class="row">
+						<p class="mt-2">And it is possible that I am alone in an empty universe, speaking to no one, unaware that the world is held aloft merely by my delusions and my smooth, sonorous voice.	”
+							— Cecil</p>
+					</div>
+            </div>
+        </section>
+        <section id="locais" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class=" text-center mb-5">A <span class="text-colored">cidade</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#dog-park" class="fw-bold nav-link text-colored active text-start">Parque dos cachorros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#arbys" class="fw-bold nav-link text-colored text-start">Arby's</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jackie" class="fw-bold nav-link text-colored text-start">Loja de penhores da Jackie</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#prefeitura" class="fw-bold nav-link text-colored text-start">Prefeitura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#biblioteca" class="fw-bold nav-link text-colored text-start">Biblioteca</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="dog-park">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imgs/dogPark.jpg" alt="Portão de entrada parque de cães" class="rounded w-100 d-block"/>
+                                    </div>
+                                    <div class="col-md-8">
+										<h5 class="fw-bold text-colored mt-2">O parque dos cachorros</h5>
+										<p>O Parque Canino é uma obra pública da cidade anunciada pelo Conselho da Cidade no "Piloto" e mencionado em vários episódios a partir de então. A primeira coisa que aprendemos sobre Night Vale é que cães e pessoas não são permitidos no parque canino, nem reconhece a existência dele. Está implícito que o tempo se move de maneira diferente dentro do parque canino e que possivelmente ocupa outra dimensão.</p>
+									</div>
+									<div class="row mt-2">
+										<p>Citizens are not even supposed to be consciously aware of the dog park, so they could not possibly be receiving a menacing and unearthly voice instructing listeners to bring precious metals and toddlers to the dog park! DOG PARK, that could NEVER, EVER BE REAL.	”
+											— Mayor Pamela Winchell</p>
+									</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="arbys">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imgs/Arby's.jpg" alt="placa Arby's" class="rounded w-100 d-block"/>
+                                    </div>
+									<div class="col-md-8">
+										<h5 class="fw-bold text-colored mt-2">Arby's</h5>
+                                        <p>Arby é um franquia sanduíche multinacional que mantém um outlet em Night Vale. Embora o restaurante em si seja presumivelmente semelhante a qualquer outro Arby, o Arby de Night Vale é distinguido pelas luzes sobrenaturais que aparecem no céu acima da placa sinalizadora de Arby, que todos os moradores locais entendem ser causada por "invasores de outro mundo".</p>
+									</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jackie">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imgs/Jackie's.jpg" alt="Loja de penhores da Jackie" class="rounded w-100 d-block"/>
+                                    </div>
+									<div class="col-md-8">
+                                        <h5 class="fw-bold text-colored mt-2">Jackie's Pawn Shop</h5>
+                                        <p>Quando você precisar encontrar a loja de penhores, você saberá onde ela está. Tem horas irregulares devido à abertura e fechamento de Jackie essencialmente por seu próprio capricho. Cada item na loja, independentemente do seu valor real, é comprado e vendido por onze dólares.</p>
+									</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="prefeitura">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imgs/prefeitura.jpg" alt="Prefeitura coberta com um longo tecido preto" class="w-100 d-block"/>
+                                    </div>
+									<div class="col-md-8">
+										<h5 class="fw-bold text-colored mt-2">Prefeitura</h5>
+                                        <p>A Prefeitura tem várias histórias e um telhado. Há um gramado e um jardim de tulipas em frente ao edifício, mas eles são mal conservados. É possível que a Prefeitura tenha poucas filiais ao redor da cidade, acomodando os diferentes departamentos do município.</p>
+										<p>O edifício está envolto em veludo preto depois de escurecer. Durante a ocupação de Night Vale por StrexCorp, foi coberto por uma lona amarela estampada com um triângulo laranja</p>
+									</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="biblioteca">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imgs/biblioteca.jpg" alt="Biblioteca" class="w-100 d-block"/>
+                                    </div>
+                                    <div class="col-md-8">
+										<h5 class="fw-bold text-colored mt-2">Biblioteca</h5>
+                                        <p>O Biblioteca Pública de Night Vale é um marco notável, embora haja insatisfação generalizada com a biblioteca entre os cidadãos da cidade. Seus computadores públicos disponíveis estão desatualizados e lentos, eles fornecem um período de empréstimo de apenas catorze dias, e a seção Biografia contém nada além de 33 cópias da biografia oficial de Helen Hunt. Houve relatos de um espectro sem rosto que percorre a seção Biografia, trazendo os visitantes a um fim prematuro.</p>
+										<p>A biblioteca era citada como um edifício sem portas, os cidadãos se viam "acordando entre duas prateleiras em uma névoa tonta, sem saber como chegaram lá e depois vagando, presos, até que acordem com um começo em suas próprias camas, cobertos de suor, e com alguns livros em sua mesa de cabeceira." </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="frases">
+			<div class="container py-5">
+				<div class="row">
+					<h2 class="text-center">Top <span class="text-colored">Citações</span></h2>
+				</div>
+				<div class="row">
+					<small class="text-center">All hail the Glow Cloud</small>
+				</div>
+				<div class="row my-5">
+					<div class="col-md-3 col-sm-6 mb-1">
+						<div class="card">
+							<div class="card-body text-light">
+								<p>Confused at a loss for what to do? Wow, sounds like you're human. Good Luck.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-1">
+						<div class="card">
+							<div class="card-body text-light">
+								<p>Monday would like you to leave it alone. It is not its fault that you are emotionally unprepared for your professional lives.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-1">
+						<div class="card">
+							<div class="card-body text-light">
+								<p>Our god is an awesome god. Much better than that ridiculous god that desert bluffs has.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-1">
+						<div class="card">
+							<div class="card-body text-light">
+								<p>We did not crumble, we did not back down. We stood with violence and it blinked first.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <section id="contato" class="py-5">
+            <div class="container">
+            <div class="row">
+                <h2 class=" text-center">
+                    Fale <span class="text-colored">conosco</span>
+                </h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                            <input type="text" id="nome" class="form-control" name="nome"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                            <input type="email" id="email" class="form-control" name="email"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone: (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control" name="telefone"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control" name="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+				<div class="col-md-5">
+					<div class="row">
+						<h3 class=" fs-4 text-colored">
+							<i class="bi bi-hand-thumbs-up-fill"></i>
+							Redes sociais
+						</h3>
+						<ul class="social-links">
+							<li class="fs-5">
+								<a href="#">
+									<i class="bi bi-facebook text-colored"></i>
+								</a>
+							</li>
+							<li class="fs-5 mx-1">
+								<a href="#">
+									<i class="bi bi-instagram text-colored"></i>
+								</a>
+							</li>
+							<li class="fs-5">
+								<a href="#">
+									<i class="bi bi-whatsapp text-colored"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="row mt-4">
+						<h3 class=" fs-4 text-colored">
+							<i class="bi bi-cursor-fill"></i>
+							Endereço
+						</h3>
+						<p>Rua dos Alfeneiros nº123, Bairro Centro - Minas Gerais - MG</p>
+					</div>
+				</div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="./lib/jquery.mask.min.js"></script>
+	<script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+	<script src="./lib/main.js"></script>
+</body>
+</html>

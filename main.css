@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    background-color: #51194C;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #51194C;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#sobre,
+#frases {
+    background-color: rgba(181, 80, 174, 0.738)
+}
+
+.text-colored {
+    color: #51194C;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #51194C;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #51194C;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #A62D9F;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+
+}
